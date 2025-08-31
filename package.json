@@ -1,13 +1,17 @@
-@@ .. @@
-   "name": "vcard-personal-portfolio-master",
-   "version": "1.0.0",
--  "description": "",
--  "main": "index.js",
-+  "description": "Personal Portfolio Website",
-+  "type": "module",
-   "scripts": {
--    "test": "echo \"Error: no test specified\" && exit 1"
-+    "dev": "vite",
-+    "build": "vite build",
-+    "preview": "vite preview"
-   },
+{
+  "name": "vcard-personal-portfolio-master",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "keywords": ["portfolio", "personal", "website"],
+  "author": "",
+  "license": "ISC"
+}
